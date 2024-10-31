@@ -1,0 +1,163 @@
+.block1 { 
+    width: 200px; 
+    background: #ccc;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+   }
+	.block2 {
+    width: 100vw;
+    height: 100px;
+	background-color:black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	font-size: 24px;
+	background-image: url('https://i.imgur.com/z7zjhD1.png');
+	background-position: center;
+    background-size: contain; 
+	z-index:2;
+	}
+	.buttons{
+	 width: 100vw;
+    height: 40px;
+	background-color:black;
+	position: fixed;
+	top: 100px;
+	left: 0;	
+	z-index:2;
+	}
+	.block3
+	{
+	width: 950px;
+    height: 800px;
+	background-color:grey;
+	margin: 0 auto;
+	background-color:#1c1c1c;
+	transform: translate(0,150px);
+	z-index:1;
+	}
+	h3{
+	color:#919191
+	}
+	.block4
+	{
+		background-image: url('https://img.freepik.com/free-vector/scary-halloween-banner-with-old-spider-web_107791-16502.jpg?t=st=1729811182~exp=1729814782~hmac=841b8ae47ad116c22fbd3866246f30c15950a57d0a2e2fbce4b11af339761043&w=1060') ;
+		background-size: cover;
+		background-position: center;
+		display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    justify-content: center; /* Центрирование по вертикали */
+	
+	}
+	.block5
+	{
+	width: 600px;
+    height: 300px;
+	background-color:#242424;
+	margin: 0 auto;
+	transform: translate(0,150px);
+	z-index:1;
+	margin-top: 100px;
+	}
+	.table-list {
+	width: 100%;
+	background-color: #1c1c1c;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+.table-list thead {
+  background-color: #333;
+  color: #fff;
+}
+
+.table-list th, .table-list td {
+  padding: 6px 8px;
+  border: 1px solid #444;
+
+}
+.table-list td.custom-background {
+  padding: 0; 
+}
+
+.table-list td:nth-child(1) {
+  width: 50px;
+  min-width: 50px; 
+  max-width: 50px; 
+  padding: 2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-list th:nth-child(2), .table-list th:nth-child(3), .table-list th:nth-child(4) {
+  width: auto; 
+}
+
+.table-list td:nth-child(2), .table-list td:nth-child(3), .table-list td:nth-child(4) {
+  width: auto; 
+}
+
+.table-list a {
+  color: #f00068;
+  text-decoration: none;
+}
+
+.table-list a:hover {
+  text-decoration: underline;
+}
+
+.table-list img {
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+ a.subject {
+    font-weight: bold;
+    color: #3290a6;
+}
+
+a.buttonsub {
+    font-weight: bold;
+    color: #b0b0b0;
+}
+
+table-list td.img-cell {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+    max-width: 35px;
+  max-height: 35px;
+  overflow: hidden;
+}
+.regla{
+	color: #b0b0b0;
+	text-align: right; /* Выравниваем текст справа */
+    margin-right: 5px; /* Расстояние между текстом и инпутом */
+    width: 150px;
+}
+.regul{
+	list-style-type: none;
+	padding: 0;
+}
+.regli{
+	display: flex; 
+    align-items: center; /* Центрируем по вертикали */
+    margin-bottom: 10px;
+}
+.regform{
+	display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    justify-content: center; /* Центрирование по вертикали */
+}
